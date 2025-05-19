@@ -39,5 +39,8 @@ Question 1: Query to find customer with atleast one funded savings plan AND one 
                 and values of column "is_a_fund" = 1, to be investment.
       Finally, Using the one of the window function 'row_number()', I was able to number the rows for each indiviual. This was done to
                 know the number of inactive days.
-      
+                
+  For Q4.
+    Aside joining table, I use the Time Stamp Difference to get the difference between the date user registered and now. Also, Count(*), was to count accross the rows and returns 
+    the total number of rows in the output result.
     
